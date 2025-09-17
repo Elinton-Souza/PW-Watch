@@ -1,0 +1,39 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: blueviolet;
+  color: bisque;
+  padding: 10px;
+}
+
+header>img {
+  width: 120px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+
+main {
+  display: flex;
+  margin-left: 24px;
+}
+
+main img {
+  width: 640px;
+  height: 380px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: bisque;
+  padding: 12px;
+  margin-top: 20px;
+}
