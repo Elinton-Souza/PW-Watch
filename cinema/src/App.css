@@ -1,3 +1,38 @@
 #root {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: tomato;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+header>img {
+  border-radius: 100px;
+  border: 7px solid black;
+}
+
+header div h1,
+h2,
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+hr {
+  height: 7px;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  padding: 15px;
+  border-radius: 10px;
+}
