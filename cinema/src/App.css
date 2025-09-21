@@ -1,21 +1,25 @@
 #root {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fbd473;
 }
 
 header {
   display: flex;
   justify-content: space-evenly;
-  background-color: tomato;
+  background-color: #190E09;
   padding: 40px;
   border-radius: 10px;
 }
 
 header>img {
   border-radius: 100px;
-  border: 7px solid black;
+  border: 3px solid #FBD473;
+  width: 20rem;
+  height: 15rem;
 }
 
-header div h1,
+header div,
+h1,
 h2,
 p {
   display: flex;
@@ -31,8 +35,26 @@ hr {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: tomato;
+  align-items: center;
+  background-color: #2f1c0d;
   padding: 15px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #190E05;
   border-radius: 10px;
 }
